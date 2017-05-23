@@ -22,7 +22,7 @@ public class Main {
 
     public static int gcd(int p, int q){
         if (p>q) {
-            return gcd(p, q) = gcd(q, p%q);
+            return gcd(p,p%q);
         }
         else{
             return 1;
